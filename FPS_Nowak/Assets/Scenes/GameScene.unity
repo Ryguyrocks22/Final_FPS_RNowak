@@ -6690,7 +6690,7 @@ GameObject:
   - component: {fileID: 1735313942}
   m_Layer: 0
   m_Name: WinBox
-  m_TagString: Untagged
+  m_TagString: Winner
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6717,7 +6717,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1735313940}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1.891038, y: 1, z: 0.9582901}
@@ -8443,6 +8443,7 @@ GameObject:
   - component: {fileID: 1026355345773942723}
   - component: {fileID: 1026355345773942724}
   - component: {fileID: 1026355345773942725}
+  - component: {fileID: 1026355345773942727}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -10724,6 +10725,18 @@ MonoBehaviour:
   m_BeforeTransparentBundles: []
   m_BeforeStackBundles: []
   m_AfterStackBundles: []
+--- !u!114 &1026355345773942727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1026355345773942720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67729acd4cc2ed74bbb48f96c2ee0a25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!20 &1026355345774269926
 Camera:
   m_ObjectHideFlags: 0
